@@ -184,3 +184,117 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Resource for @media code: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+/* Resource for learning @media queries: https://www.youtube.com/watch?v=2KL-z9A56SQ&authuser=0 */
+/* Resource for testing media queries: https://www.youtube.com/watch?v=dPU5xGty0tE&app=desktop  */
+
+@media (max-width: 960px) {
+    header {
+        width: 100%;
+        position: fixed;
+        color: #777777;
+    }
+    section {
+        text-align: left;
+        max-width: 500px;
+        padding-right: 10px;
+        padding-left: 10px;
+        position: left;
+       }
+    nav {
+        background-color: #ffffff;
+        text-decoration: none;
+        text-align: right;
+        padding-right: 5%;
+    }
+    a.Kristen {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width: 300px;
+        margin-left: 10%;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-decoration: none;
+        float: left;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 800px;
+        position: fixed;
+        color: #777777;
+    }
+    section {
+        align: center;
+        max-width: 400px;
+       }
+    nav {
+        background-color: #ffffff;
+        text-decoration: none;
+        text-align: right;
+        padding-right: 5%;
+    }
+    a.Kristen {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width: 300px;
+        margin-left: 10%;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-decoration: none;
+        float: left;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        max-width: 641px;
+        position: center;
+        position: fixed;
+        color: #777777;
+        font-size: 12px;
+    }
+    a.Kristen {
+        color: #ffffff;
+        width: 700px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 0%;
+        text-align: center;
+        float: none;
+        font-size: 30px;
+    }
+    nav {
+        background-color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        position: center;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    section {
+        margin-top: 75px;
+        align: center;
+        max-width: 550px;
+        position: absolute;
+        overflow-y: scroll;
+        z-index: 100;
+       }
+
+/* how to make the page scroll properly source: https://stackoverflow.com/questions/45967303/how-to-get-image-to-scroll-behind-navbar */
+
+
+}
